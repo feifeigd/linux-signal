@@ -1,7 +1,5 @@
 
-# 安装cmake
-before_script:
-    - apt-get update && apt-get install -y cmake
+image: gcc-alpine
 
 version:
     script:
