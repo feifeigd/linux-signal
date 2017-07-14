@@ -1,4 +1,12 @@
 
+# 安装cmake
+before_script:
+    - apt-get update && apt-get install -y cmake
+
 version:
     script:
         - gcc --version
+build:
+    script:
+        - mkdir build && cd build
+        - cmake .. && make
