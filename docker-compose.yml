@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+        linux-signal:
+                image: alpine
+                volumes:
+                        - ./bin/linux-signal:/linux-signal
+
