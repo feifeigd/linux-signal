@@ -1,0 +1,4 @@
+
+version:
+    script:
+        - gcc --version
